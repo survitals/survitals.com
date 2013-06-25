@@ -1,4 +1,7 @@
-[survitals.com](http://survitals.com)
-=============
+# [survitals.com](http://survitals.com)
 
-website about survival, safety, and preparedness
+[Survitals](http://survitals.com) is a website about survival, safety, and preparedness.
+
+## Links
+
+- Follow [@survitals](http://twitter.com/survitals)
