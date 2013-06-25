@@ -1,0 +1,4 @@
+# developers.google.com/webmasters/control-crawl-index/docs/robots_txt
+
+User-agent: *
+Disallow: /_
