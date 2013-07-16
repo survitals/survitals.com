@@ -4,4 +4,5 @@
 
 ## Links
 
-- Follow [@survitals](http://twitter.com/survitals)
+- [twitter.com/survitals](http://twitter.com/survitals)
+- [facebook.com/survitals](http://facebook.com/survitals)
