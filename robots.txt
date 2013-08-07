@@ -1,4 +1,5 @@
-# developers.google.com/webmasters/control-crawl-index/docs/robots_txt
+# bit.ly/robots-txt-specs
 
 User-agent: *
 Disallow: /_
+Disallow: /*/_
