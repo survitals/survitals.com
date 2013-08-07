@@ -1,0 +1,9 @@
+[submodule "_package/chromosome"]
+	path = _package/chromosome
+	url = git@github.com:airve/chromosome.git
+[submodule "_package/traits"]
+	path = _package/traits
+	url = git@github.com:airve/traits.git
+[submodule "_package/path"]
+	path = _package/path
+	url = git@github.com:ryanve/path.git
