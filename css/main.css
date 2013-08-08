@@ -1,6 +1,6 @@
 
-    ::selection { background:#0a4; color:#fffafa; }
-    html { background:#fffafa; color:#333; font-family:sans-serif; }
+    ::selection { background:#0a4; color:#fafafa; }
+    html { background:#fafafa; color:#333; font-family:sans-serif; }
     body { width:96%; margin:0 auto; }
     @media (min-width:12em) {
         .site-logo { font-size:2em }
