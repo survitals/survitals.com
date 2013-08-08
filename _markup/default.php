@@ -19,6 +19,7 @@ use \airve\Phat;
     <meta name='viewport' content='width=device-width,initial-scale=1.0'>
     <?php echo Loci::meta('author', loci()->data('author:name') ?: loci()->data('author')); ?>
     <?php echo Loci::meta('description', loci()->data('description')); ?>
+    
     <link rel=stylesheet href="/css/base.<?php echo date('YW'); ?>.css">
     <link rel=stylesheet href="/css/main.<?php echo date('YmdH'); ?>.css" media="screen,projection">
     <?php echo \rtrim(\call_user_func(function($ctxt, $tab = '    ', $markup = '') {
