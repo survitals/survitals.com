@@ -1,8 +1,3 @@
-<?php 
-namespace airve;
-use \airve\Loci;
-use \airve\Path;
-?>
 
         <article class="hentry {{class}}" itemtype="http://schema.org/Article" itemscope>
             <header class="entry-header">
