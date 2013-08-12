@@ -1,6 +1,6 @@
 {
     "site:name": "Survitals",
-    "path:views": "../_markup",
-    "path:items": "../_content",
+    "path:views": "_markup",
+    "path:items": "_content",
     "ga:applies": [["create", "UA-5731919-28"], ["send", "preview"]]
 }
