@@ -11,17 +11,13 @@
             <div class="entry-content" itemprop="articleBody">
                 {{item.html}}
             </div>
-            
+
             <footer class="entry-footer" role="contentinfo">
                 <dl class='pairs meta-list entry-meta'>
                     <dt class='meta-label time-label'>Posted</dt>
-                    <dd class='meta-value time-value'>
-                        <time itemprop='datePublished' class='published'>{{pubdate}}</time>
-                    </dd>
+                    <dd class='meta-value time-value'><time itemprop='datePublished' class='published'>{{pubdate}}</time></dd>
                     <dt class='meta-label time-label'>Updated</dt>
-                    <dd class='meta-value time-value'>
-                        <time itemprop='dateModified' class='updated'>{{moddate}}</time>
-                    </dd>
+                    <dd class='meta-value time-value'><time itemprop='dateModified' class='updated'>{{moddate}}</time></dd>
                 </dl>
             </footer>
         </article>
