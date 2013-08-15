@@ -18,6 +18,11 @@
         .site-title { font-size:3em; }
     }
     
+    ::-webkit-input-placeholder { color:inherit; }
+          :-moz-placeholder { color:inherit; } /* FF 4-18 */
+         ::-moz-placeholder { color:inherit; } /* FF 19+ */
+     :-ms-input-placeholder { color:inherit; } /* IE 10+ */
+
     .site-header { display:block; padding:.5em; margin:0 0 1em; }
     .site-branding h1 { margin:0; line-height:1; }
     .form-search { margin:0; padding:1em 0; }
@@ -25,6 +30,7 @@
         .site-branding { float:left; }
         .form-search { float:right; }
     }
+    
     .site-header:after { clear:both; content:" "; display:table; }
     .form-search input { margin-top:.2em; margin-bottom:.2em; }
     .form-search input[type="search"] { max-width:80%; }
