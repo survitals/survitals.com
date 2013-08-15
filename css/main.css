@@ -2,14 +2,14 @@
     ::selection { background:#0a4; color:#fafafa; }
     html { background:#fafafa; color:#333; font-family:sans-serif; }
     body { font-size:1.1em; line-height:1.7; }
+    blockquote, figcaption { line-height:1.2; }
+    
     @media (min-width:12em) {
         .site-logo { font-size:2em }
     }
     @media (min-width:20em) {
         .site-logo { font-size:3em }
     }
-    main > article:not([class]) { border-left:1em solid #ed3; padding-left:.6em; }
-
     
     .site-header { display:block; padding:.5em; margin:0 0 1em; }
     .site-branding h1 { margin:0; line-height:1; }
@@ -23,7 +23,7 @@
     .form-search input[type="search"] { max-width:80%; }
     .form-search input { background:#fafafa; border:0; padding:.4em; color:#18a; }
     @media (color) {
-        .site-header { background:#18a; color:#efefef; }
+        .site-header { background:#f13; color:#efefef; }
         .site-header a { color:#fafafa; }
     }
     
