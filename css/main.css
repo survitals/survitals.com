@@ -5,6 +5,12 @@
     blockquote, figcaption { line-height:1.2; }
     main { max-width:60em; margin:1em auto; padding:16px 2%; }
     
+    a[title] [title] { text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    @media (color) {
+        a { color:#18a; text-decoration:none; }
+    }
+    
     @media (min-width:12em) {
         .site-title { font-size:2em; }
     }
