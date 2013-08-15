@@ -8,8 +8,24 @@
     @media (min-width:20em) {
         .site-logo { font-size:3em }
     }
-    main > article { border-left:1em solid #ed3; padding-left:.6em; }
+    main > article:not([class]) { border-left:1em solid #ed3; padding-left:.6em; }
 
+    
+    .site-header { display:block; padding:.5em; margin:0 0 1em; }
+    .site-branding h1 { margin:0; line-height:1; }
+    .form-search { margin:0; padding:1em 0; }
+    @media (min-width:50em) {
+        .site-branding { float:left; }
+        .form-search { float:right; }
+    }
+    .site-header:after { clear:both; content:" "; display:table; }
+    .form-search input { margin-top:.2em; margin-bottom:.2em; }
+    .form-search input[type="search"] { max-width:80%; }
+    .form-search input { background:#222; border:0; padding:.4em; color:#fafafa; }
+    @media (color) {
+        .site-header { background:#18a; color:#efefef; }
+        .site-header a { color:#fafafa; }
+    }
     
     @media (color) and (min-width:30.1em) {
         .site-title, .site-subline { display:inline-block; vertical-align:middle; }
