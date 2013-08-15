@@ -21,7 +21,7 @@
     .site-header:after { clear:both; content:" "; display:table; }
     .form-search input { margin-top:.2em; margin-bottom:.2em; }
     .form-search input[type="search"] { max-width:80%; }
-    .form-search input { background:#222; border:0; padding:.4em; color:#fafafa; }
+    .form-search input { background:#fafafa; border:0; padding:.4em; color:#18a; }
     @media (color) {
         .site-header { background:#18a; color:#efefef; }
         .site-header a { color:#fafafa; }
