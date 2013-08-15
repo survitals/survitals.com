@@ -8,7 +8,7 @@
     a[title] [title] { text-decoration:none; }
     a:hover { text-decoration:underline; }
     @media (color) {
-        a { color:#18a; text-decoration:none; }
+        a { color:#f13; text-decoration:none; }
     }
     
     .site-title { text-transform:lowercase; }
@@ -35,8 +35,8 @@
     .site-header:after { clear:both; content:" "; display:table; }
     .form-search input { margin-top:.2em; margin-bottom:.2em; }
     .form-search input[type="search"] { max-width:80%; }
-    .form-search input { background:#efefef; border:0; padding:.4em; color:#f13; }
+    .form-search input { background:#efefef; border:0; padding:.4em; color:#18a; }
     @media (color) {
-        .site-header { background:#18a; color:#efefef; }
+        .site-header { background:#f13; color:#efefef; }
         .site-header a { color:#efefef; }
     }
