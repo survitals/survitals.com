@@ -1,6 +1,6 @@
 
-    ::selection { background:#0a4; color:#fafafa; }
-    html { background:#fafafa; color:#333; font-family:sans-serif; }
+    ::selection { background:#0a4; color:#efefef; }
+    html { background:#efefef; color:#111; font-family:sans-serif; }
     body { font-size:1.1em; line-height:1.7; }
     blockquote, figcaption { line-height:1.2; }
     main { max-width:60em; margin:1em auto; padding:16px 2%; }
@@ -11,6 +11,7 @@
         a { color:#18a; text-decoration:none; }
     }
     
+    .site-title { text-transform:lowercase; }
     @media (min-width:12em) {
         .site-title { font-size:2em; }
     }
@@ -24,8 +25,8 @@
      :-ms-input-placeholder { color:inherit; } /* IE 10+ */
 
     .site-header { display:block; padding:.5em; margin:0 0 1em; }
-    .site-branding h1 { margin:0; line-height:1; }
     .form-search { margin:0; padding:1em 0; }
+    .site-branding h1 { margin:0; line-height:1; }
     @media (min-width:50em) {
         .site-branding { float:left; }
         .form-search { float:right; }
@@ -34,8 +35,8 @@
     .site-header:after { clear:both; content:" "; display:table; }
     .form-search input { margin-top:.2em; margin-bottom:.2em; }
     .form-search input[type="search"] { max-width:80%; }
-    .form-search input { background:#fafafa; border:0; padding:.4em; color:#18a; }
+    .form-search input { background:#efefef; border:0; padding:.4em; color:#f13; }
     @media (color) {
-        .site-header { background:#f13; color:#efefef; }
-        .site-header a { color:#fafafa; }
+        .site-header { background:#18a; color:#efefef; }
+        .site-header a { color:#efefef; }
     }
