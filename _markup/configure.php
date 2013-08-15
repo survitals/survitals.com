@@ -3,8 +3,10 @@ use chromosome\Loci;
 use airve\Path;
 
 Loci::option('uri:repo') and Loci::on('normalize', function() {
-    $repo = Loci::option('uri:repo');
+    $tree = $repo = Loci::option('uri:repo');
     $ctxt = Loci::context();
-    $hier = \str_replace($_SERVER['DOCUMENT_ROOT'], '', $ctxt->dir);
-    $ctxt->data('url.tree', Path::join($repo, 'tree/master', $hier));
+    !empty($ctxt->dir)
+        and ($hier = \str_replace($_SERVER['DOCUMENT_ROOT'], '', $ctxt->dir))
+        and ($tree = Path::join($repo, 'tree/master', $hier)); 
+    $ctxt->data('url.tree', $tree);
 });
