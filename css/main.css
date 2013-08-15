@@ -3,6 +3,7 @@
     html { background:#fafafa; color:#333; font-family:sans-serif; }
     body { font-size:1.1em; line-height:1.7; }
     blockquote, figcaption { line-height:1.2; }
+    main { max-width:60em; margin:1em auto; padding:16px 2%; }
     
     @media (min-width:12em) {
         .site-logo { font-size:2em }
