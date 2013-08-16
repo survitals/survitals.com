@@ -9,6 +9,8 @@ echo loci(json_decode('{
     "description": "Learn about modern survival, safety, rescue, preparedness, and situation awareness.",
     "list": [
         "about/",
-        "water/"
+        "water/",
+        "first-aid/dehydration",
+        "improvise/"
     ]
 }'))->render();
