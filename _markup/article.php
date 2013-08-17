@@ -14,12 +14,13 @@
             </div>
 
             <footer class="entry-footer" role="contentinfo">
-                <div><a href="{{url.tree}}">Help improve this article.</a></div>
                 <dl class='pairs meta-list entry-meta'>
-                    <dt class='meta-label time-label'>Posted</dt>
-                    <dd class='meta-value time-value'><time itemprop='datePublished' class='published'>{{pubdate}}</time></dd>
+                    <dt class='meta-label time-label'>Created</dt>
+                    <dd class='meta-value time-value'><time itemprop='dateCreated datePublished' class='published'>{{pubdate}}</time></dd>
                     <dt class='meta-label time-label'>Updated</dt>
                     <dd class='meta-value time-value'><time itemprop='dateModified' class='updated'>{{moddate}}</time></dd>
+                    <dt class='meta-label edit-label'>Edit</dt>
+                    <dd class='meta-value edit-value'><a href="{{url.tree}}">Improve this article.</a></dd>
                 </dl>
             </footer>
         </article>
