@@ -1,0 +1,9 @@
+{
+    "title": "First Aid",
+    "type": "plural",
+    "description": "",
+    "list": [
+        "first-aid/bleeding",
+        "first-aid/dehydration"
+    ]
+}
