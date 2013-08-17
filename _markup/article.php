@@ -19,8 +19,8 @@
                     <dd class='meta-value time-value'><time itemprop='dateCreated datePublished' class='published'>{{pubdate}}</time></dd>
                     <dt class='meta-label time-label'>Updated</dt>
                     <dd class='meta-value time-value'><time itemprop='dateModified' class='updated'>{{moddate}}</time></dd>
-                    <dt class='meta-label edit-label'>Edit</dt>
-                    <dd class='meta-value edit-value'><a href="{{url.tree}}">Improve this article.</a></dd>
+                    <dt class='meta-label edit-label'>Contribute</dt>
+                    <dd class='meta-value edit-value'><a href="{{url.tree}}">Edit this article.</a></dd>
                 </dl>
             </footer>
         </article>
