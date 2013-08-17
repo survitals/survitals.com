@@ -44,6 +44,7 @@
         .site-title a span { visibility:hidden; overflow:hidden; } 
         .site-title a {
             /* a30 b03 */
+            text-decoration:none;
             display:block; padding:0; line-height:1;
             background-color:#c55500; color:#fafafa;
             background-size:120px; width:120px; height:120px; 
