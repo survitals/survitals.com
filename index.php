@@ -10,7 +10,9 @@ echo loci(json_decode('{
     "list": [
         "about/",
         "water/",
-        "first-aid/dehydration",
-        "improvise/"
+        "fire/",
+        "first-aid/",
+        "improvise/",
+        "plastic/"
     ]
 }'))->render();
