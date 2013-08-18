@@ -13,6 +13,7 @@ echo loci(json_decode('{
         "fire/",
         "first-aid/",
         "improvise/",
+        "power/",
         "plastic/"
     ]
 }'))->render();

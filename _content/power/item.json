@@ -1,5 +1,6 @@
 {
-    "title": "Emergency power",
-    "description": "",
+    "title": "Power",
+    "titlebar": "Emergency Power",
+    "description": "Emergency power solutions and concerns.",
     "pubdate": "2013-08-08"
 }
