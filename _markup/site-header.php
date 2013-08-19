@@ -10,8 +10,7 @@
         </div>
         <form class="form-search" role="search" method="get" action="http://www.google.com/search">
             <input name="sitesearch" type="radio" value="<?php echo $_SERVER['SERVER_NAME']; ?>" checked hidden>
-            <input name="q" type="search" placeholder="water">
+            <input name="q" type="search">
             <input type="submit" value="Search">
         </form>
     </header>
-
