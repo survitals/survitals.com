@@ -1,9 +1,10 @@
 
     ::selection { background:#ed3; color:#000; }
-    html { background:#fafafa; color:#111; font-family:sans-serif; }
+    html { background:#fafafa; color:#222; font-family:sans-serif; }
     body { font-size:1.1em; line-height:1.5; max-width:54.5454545454545em; width:96%; }
     blockquote, figcaption { line-height:1.2; }
-    main, .site-footer { margin:1em auto; padding:.5em 0 0; border-top:.2em dotted #bbb; }
+    main, .site-footer { margin:1em auto; padding:.5em 0 0; border-top:.26em dotted #222; }
+    article h2 { border-left:.2em dotted #222; padding:0 .5em; line-height:1; }
     
     /* a { transition:background-color .2s ease-out; } */
     a[title] [title] { text-decoration:none; }
