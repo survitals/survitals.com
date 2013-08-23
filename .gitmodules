@@ -4,9 +4,9 @@
 [submodule "_package/traits"]
 	path = _package/traits
 	url = git://github.com/airve/traits.git
-[submodule "_package/path"]
-	path = _package/path
-	url = git://github.com/ryanve/path.git
 [submodule "_package/phat"]
 	path = _package/phat
 	url = git://github.com/airve/phat.git
+[submodule "_package/slash"]
+	path = _package/slash
+	url = git://github.com/ryanve/slash.git
