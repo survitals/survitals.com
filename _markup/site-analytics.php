@@ -1,5 +1,5 @@
 <?php 
-use \airve\Path;
+use \slash\Path;
 
 \call_user_func(function() {
     $data = \is_file($data = Path::root('chromosome.json')) ? (array) Path::getJson($data) : $data;

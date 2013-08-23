@@ -1,7 +1,7 @@
 <?php
 namespace chromosome;
 use \chromosome\Loci;
-use \airve\Path;
+use \slash\Path;
 use \airve\Phat;
 ?><!DOCTYPE html>
 <?php echo \class_exists('\\airve\\Phat') ? Phat::tag('html', function() {

@@ -1,6 +1,6 @@
 <?php
 use chromosome\Loci;
-use airve\Path;
+use slash\Path;
 
 Loci::option('uri:repo') and Loci::on('normalize', function() {
     $tree = $repo = Loci::option('uri:repo');

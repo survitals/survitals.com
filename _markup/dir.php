@@ -1,7 +1,7 @@
 <?php 
 namespace chromosome;
 use \chromosome\Loci;
-use \airve\Path;
+use \slash\Path;
 use \airve\Phat;
 ?><!DOCTYPE html><?php \call_user_func(function() {
         $list = [];
