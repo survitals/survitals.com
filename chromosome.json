@@ -4,5 +4,5 @@
     "path:items": "_content",
     "path:files": ["_markup/configure.php"],
     "uri:repo": "https://github.com/survitals/survitals.com",
-    "ga:applies": [["create", "UA-5731919-28"], ["send", "preview"]]
+    "ga:applies": [["create", "UA-5731919-28"], ["send", "pageview"]]
 }
