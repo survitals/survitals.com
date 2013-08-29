@@ -14,6 +14,7 @@ echo loci(json_decode('{
         "first-aid/",
         "improvise/",
         "power/",
-        "plastic/"
+        "plastic/",
+        "travel/"
     ]
 }'))->render();
