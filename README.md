@@ -5,7 +5,7 @@
 ## Contribute
 
 To write, <a href="https://github.com/signup/free">signup for Github</a> and make edits in `../_content`.
-To ask questions or suggest ideas, please open a <a href="https://github.com/survitals/survitals.com/issues">issue</a>.
+To ask questions or suggest ideas, please <a href="https://github.com/survitals/survitals.com/issues">open an issue</a>.
 
 ## Networks
 
