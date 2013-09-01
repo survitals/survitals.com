@@ -11,10 +11,10 @@ use \slash\Path;
 
 <script>
 (function(k,i,l,o,g,r,a,m){
-  if(k.indexOf("http"))return;i.GoogleAnalyticsObject=r;k=i[r]=i[r]||function(){(k.q=k.q||[]).push(arguments)}
+  if(!k.hostname)return;i.GoogleAnalyticsObject=r;k=i[r]=i[r]||function(){(k.q=k.q||[]).push(arguments)}
   ;k.l=1*new Date();a=l.createElement(o);m=l.getElementsByTagName(o)[0];a.src=g;m.parentNode.insertBefore(a,m)
   <?php echo "$data\n"; ?>
-})(location.protocol,window,document,"script","//www.google-analytics.com/analytics.js","ga");
+})(location,window,document,"script","//www.google-analytics.com/analytics.js","ga");
 </script>
 
 <?php });
