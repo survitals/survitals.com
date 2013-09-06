@@ -3,7 +3,6 @@
         <ul>
             <li><a href="https://github.com/survitals/survitals.com">Github</a>
             <li><a href="http://twitter.com/survitals">Twitter</a>
-            <li><a href="https://www.facebook.com/survitals">Facebook</a>
         </ul>
     </footer>
 
