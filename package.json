@@ -1,0 +1,18 @@
+{
+    "name": "survitals.com",
+    "description": "website about survival, safety, and preparedness",
+    "version": "0.0.1",
+    "homepage": "https://github.com/survitals/survitals.com",
+    "license": "MIT",
+    "author": "Ryan Van Etten",
+    "keywords": ["website"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/survitals/survitals.com.git"
+    }, 
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-jshint": "~0.6.4"
+    }
+}
