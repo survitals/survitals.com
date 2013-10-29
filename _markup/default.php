@@ -41,11 +41,15 @@ use \airve\Phat;
         <?php \call_user_func(function() {
             $ctxt = Loci::context();
             $list = $ctxt->data('list');
+            $file = Loci::option('basename:html');
             if ( !\is_array($list)) {
                 include ('article.php');
             } else if ($from = Loci::option('path:items')) {
-                foreach ($list as $path)
-                    echo loci(Path::join($from, $path))->render('article-link');
+                foreach ($list as $path) {
+                    $post = loci(Path::join($from, $path));
+                    if ( ! Path::contains($post->data('type'), 'draft'))
+                        echo $post->render_e('article-link');
+                }
             }
         }); ?>
     
