@@ -37,6 +37,7 @@ use \airve\Phat;
 <?php include 'site-header.php'; ?>
 
     <main id="main" role="main">
+        <div class="container">
     
         <?php \call_user_func(function() {
             $ctxt = Loci::context();
@@ -53,6 +54,7 @@ use \airve\Phat;
             }
         }); ?>
     
+        </div>
     </main>
 
 <?php include 'site-footer.php'; ?>

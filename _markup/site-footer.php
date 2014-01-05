@@ -1,9 +1,11 @@
 
     <footer class="site-footer">
-        <ul>
-            <li><a href="https://github.com/survitals/survitals.com">Github</a>
-            <li><a href="http://twitter.com/survitals">Twitter</a>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="https://github.com/survitals/survitals.com">Github</a>
+                <li><a href="http://twitter.com/survitals">Twitter</a>
+            </ul>
+        </div>
     </footer>
 
     <div hidden>
