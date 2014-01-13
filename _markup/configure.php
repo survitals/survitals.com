@@ -14,8 +14,7 @@ Loci::option('uri:repo') and Loci::on('normalize', function() {
 class_exists('Parsedown') or require_once(Path::root('_package/parsedown/Parsedown.php'));
 class_exists('Parsedown') and Loci::on('normalize', function() {
   $ctx = Loci::context();
-  $key = 'item.html'; #todo Unhardcode the filename.
-  if ($md = $ctx->data($key))
+  if ($md = $ctx->data('item.md'))
     if ($md = preg_replace('/<!--(.*)-->/Uis', '', $md)) //stackoverflow.com/a/3235781/770127
-      $ctx->data($key, Parsedown::instance()->parse($md));
+      $ctx->data('item.html', Parsedown::instance()->parse($md));
 });

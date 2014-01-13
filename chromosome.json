@@ -3,6 +3,7 @@
     "path:views": "_markup",
     "path:items": "_content",
     "path:files": ["_markup/configure.php"],
+    "keys:imports": ["item.html", "item.md"],
     "uri:repo": "https://github.com/survitals/survitals.com",
     "ga:applies": [["create", "UA-5731919-28"], ["send", "pageview"]]
 }
