@@ -1,7 +1,7 @@
 <?php
 namespace chromosome; 
 use \slash\Path;
-require_once __DIR__ . '/_package/chromosome/bootstrap.php';
+require __DIR__ . '/_package/chromosome/bootstrap.php';
 echo loci(\array_merge(json_decode('{
   "title": "Survitals: Safety, Survival, and Preparedness",
   "type": "home plural",
