@@ -3,12 +3,14 @@ use chromosome\Loci;
 use slash\Path;
 
 Loci::option('uri:repo') and Loci::on('normalize', function() {
-    $tree = $repo = Loci::option('uri:repo');
+    $repo = $edit = $tree = Loci::option('uri:repo');
     $ctxt = Loci::context();
-    !empty($ctxt->dir)
-        and ($hier = \str_replace($_SERVER['DOCUMENT_ROOT'], '', $ctxt->dir))
-        and ($tree = Path::join($repo, 'tree/master', $hier)); 
+    if (!empty($ctxt->dir) and $hier = \str_replace($_SERVER['DOCUMENT_ROOT'], '', $ctxt->dir)) {
+      $tree = Path::join($repo, 'tree/master', $hier);
+      $edit = Path::join($repo, 'blob/master', $hier, 'item.md');
+    }
     $ctxt->data('url.tree', $tree);
+    $ctxt->data('url.edit', $edit);
 });
 
 class_exists('Parsedown') or require_once(Path::root('_package/parsedown/Parsedown.php'));
