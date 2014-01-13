@@ -1,5 +1,7 @@
-<dfn>Situation awareness</dfn> is the ability to observe details about one's 
-current surroundings that may be relevant to future needs or dangers.
+<div>
+  <dfn>Situation awareness</dfn> is the ability to observe details about one's 
+  current surroundings that may be relevant to future needs or dangers.
+</div>
 
 ## Examples
 

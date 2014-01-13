@@ -1,4 +1,3 @@
-## Definition
 <div>
   <dfn>SODIS</dfn> is a method that uses sunlight to disinfect water primarily via UV light transmission. 
 </div>
