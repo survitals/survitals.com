@@ -10,3 +10,6 @@
 [submodule "_package/slash"]
 	path = _package/slash
 	url = git://github.com/ryanve/slash.git
+[submodule "_package/parsedown"]
+	path = _package/parsedown
+	url = git://github.com/erusev/parsedown.git
