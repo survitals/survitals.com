@@ -1,5 +1,5 @@
 <h2 id="fire_triangle">Fire Triangle</h2>
-<h3>3 Essentials</h3>
+<h3>3 Fire Essentials</h3>
 <ul>
     <li>Fuel
     <li>Heat
