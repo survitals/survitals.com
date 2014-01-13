@@ -2,7 +2,7 @@
 
 <h2 id="contribute">Contribute</h2>
 
-<b>Got skills?</b> Help improve the site by editing or writing articles.
+Got skills? Help improve the site by editing or writing articles.
 Survitals uses [Github](https://github.com/survitals/survitals.com) as a collaborative writing platform.
 
 - [Signup for Github](https://github.com/signup/free)
