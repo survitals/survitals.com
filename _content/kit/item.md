@@ -5,16 +5,14 @@
     Different situations benefit from different kit items.
 </p>
 
-<h2>Factors</h2>
-<ul>
-    <li>Populated vs. remote area
-    <li>Urban vs. wilderness terrain
-    <li>Resources vs. dangers
-    <li>Climate
-    <li>Duration
-    <li>Skills and abilities
-    <li>Local Laws
-</ul>
+## Factors
+- Populated vs. remote area
+- Urban vs. wilderness terrain
+- Resources vs. dangers
+- Climate
+- Duration
+- Skills and abilities
+- Local Laws
 
 <!--
 <h2>Contexts</h2>
@@ -22,8 +20,8 @@
 
 <!--
 <ul>
-    <li>Survival kit
-    <li>Emergency kit
-    <li>Disaster kit
+- Survival kit
+- Emergency kit
+- Disaster kit
 </ul>
 -->

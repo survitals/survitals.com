@@ -1,11 +1,9 @@
-<h2>How To Stop Bleeding</h2>
-<ol>
-    <li><strong>Apply direct pressure</strong> to the wound. 
-    <li><strong>Immobilize</strong> the victim or area to slow blood flow.
-    <li><strong>Constrict</strong> blood flow to the area via <b>pressure points</b>.
-    <li><strong>Cool</strong> the wound with a cold compress or ice pack.
-    <li><strong>Elevate</strong> the wound to reduce blood flow to the area.
-</ol>
+## How To Stop Bleeding
+- **Apply direct pressure** to the wound. 
+- **Immobilize** the victim or area to slow blood flow.
+- **Constrict** blood flow to the area via <b>pressure points</b>.
+- **Cool** the wound with a cold compress or ice pack.
+- **Elevate** the wound to reduce blood flow to the area.
 
 <!-- 
 http://firstaid.webmd.com/how-to-stop-bleeding-from-a-skin-wound

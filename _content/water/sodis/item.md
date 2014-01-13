@@ -1,34 +1,28 @@
-<p><dfn>SODIS</dfn> is a method that uses sunlight to disinfect water primarily via UV light transmission.</p>
+## Definition
+<div>
+  <dfn>SODIS</dfn> is a method that uses sunlight to disinfect water primarily via UV light transmission. 
+</div>
 
-<h2>SODIS Requires</h2>
+## SODIS Requires
 
-<ul>
-    <li>Clear (<a href="http://www.sodis.ch/methode/anwendung/index_EN#turbidity">non-turbid</a>) <b>water</b>
-    <li><b>#1 PET (PETE) plastic</b> or other non-toxic <b>clear containers</b> having sufficient UV light transmission
-    <li><b>Sunlight</b>
-</ul>
+- Clear ([non-turbid](http://www.sodis.ch/methode/anwendung/index_EN#turbidit)) water
+- <b>#1</b> PET (PETE) plastic or other non-toxic clear containers having sufficient UV light transmission
+- Sunlight
 
-<p>
-    PET plastic is the preferred material for SODIS due to its safety and efficacy.
-    PET plastic drink bottles are ideal. Polyethylene bags like Ziplocs are effective but less durable.
-    Glass slows transmittance but some types are viable with good sunlight exposure.
-    Avoid PVC due to toxins.
-</p>
-<p>
-    <q>Plastic bottles made from PET are recommended for SODIS use as they should not contain substances
-hazardous to health. Good transmittance of UV-A light is required when glass bottles are to be used for
-SODIS.</q> <small>(<a href="http://www.sodis.ch/methode/anwendung/factsheets/glass_pet_e.pdf">sodis.ch</a>)</small>
-</p>
+PET plastic is the preferred material for SODIS due to its safety and efficacy.
+PET plastic drink bottles are ideal. Polyethylene bags like Ziplocs are effective but less durable.
+Glass slows transmittance but some types are viable with good sunlight exposure.
+Avoid PVC due to toxins.
+
+<q>Plastic bottles made from PET are recommended for SODIS use as they should not contain substances hazardous to health. Good transmittance of UV-A light is required when glass bottles are to be used for
+SODIS.</q> <small>([sodis.ch](http://www.sodis.ch/methode/anwendung/factsheets/glass_pet_e.pdf))</small>
 
 <!--
-<h2>SODIS Steps</h2>
-<ol>
-    <li>Place clear water in container.
-    <li>Sunlight
-    <li><b>PET plastic</b> or other <b>clear containers</b> having sufficient UV light transmission
-</ol>
+## SODIS Steps
+1. Place clear water in container.
+1. Sunlight
+1. <b>PET plastic</b> or other <b>clear containers</b> having sufficient UV light transmission
 -->
-
 
 <!--
 http://www.sodis.ch/methode/faqs/index_EN
