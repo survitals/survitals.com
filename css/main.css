@@ -1,7 +1,7 @@
 
     ::selection { background:#ed3; color:#000; }
     html { background:#f8f8f8; color:#222; font-family:sans-serif; }
-    body { font-size:1.1em; line-height:1.5; max-width:54.5454545454545em; width:96%; }
+    body { font-size:1em; line-height:1.5; max-width:60em; width:96%; }
     blockquote, figcaption { line-height:1.2; }
     dfn { font-style:normal; font-weight:bolder; }
     a dfn:only-child { font-weight:inherit; }
