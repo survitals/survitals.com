@@ -14,8 +14,8 @@
 
 <h1>Not Found <span>:(</span></h1>
 <div>
-  <p>The link was either <b>outdated</b> or <b>mistyped</b>.</p>
-  <p>Visit <a href="/" rel="home">home</a>, or search:</p>
+  <p>The link was either <b>outdated</b> or <b>mistyped</b>.
+  <h4><a href="/" rel="home">Visit home</a> or search:</h4>
   <form role="search" method="get" action="http://www.google.com/search">
     <input name="sitesearch" type="radio" value="<?php echo $_SERVER['SERVER_NAME']; ?>" checked hidden>
     <input name="q" type="search">
