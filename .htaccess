@@ -341,6 +341,9 @@ AddCharset utf-8 .html .css .js .xml .json .rss
 # bit.ly/index-options
 IndexOptions IgnoreCase FancyIndexing FoldersFirst NameWidth=* DescriptionWidth=* SuppressHTMLPreamble
 
+# redirect moved pages
+RedirectMatch 301 ^/power/* /emergency-power?
+
 # END RVE
 
 # BEGIN Chromosome
