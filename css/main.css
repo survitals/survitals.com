@@ -3,7 +3,10 @@
   html {
     font-size:1.0625em; line-height:1.5; font-family:sans-serif; 
     background-color:#efefef; color:#111;
+    box-sizing: border-box;
   }
+
+  *, *:before, *:after { box-sizing: inherit; }
   body, main, .site-header, .site-footer { width:100%; padding:0; display:block; }
   blockquote, figcaption { line-height:1.2; }
   dfn { font-style:normal; font-weight:bolder; }
