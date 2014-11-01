@@ -27,6 +27,13 @@
   @media (color) {
     a { color:#15c; text-decoration:none; }
   }
+
+  .alignleft, .alignright { display:block; max-width:100%; margin:1em 0; clear:both; }
+  @media (min-width:30em) {
+    .alignleft { float:left; max-width:33.333%; margin-right:4%; margin-left:0;  }
+    .alignright { float:right; max-width:48%; margin-left:4%; margin-right:0; }
+    .alignleft:first-child, .alignright:first-child { margin-top:0; }
+  }
   
   ::-webkit-input-placeholder { color:#777; }
       :-moz-placeholder { color:#777; } /* FF 4-18 */
