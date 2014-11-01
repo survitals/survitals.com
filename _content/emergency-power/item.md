@@ -1,3 +1,7 @@
+<figure class="alignright">
+  <img alt="electrical outlet" src="http://media.survitals.com/icons/outlet/outlet_tran-black_540.png">
+</figure>
+
 An emergency power source creates the ability to generate power on command in the event of a power grid failure.
 With the rise in erratic weather patterns and the evergrowing demand on an outdated energy grid power failures
 are becoming more common. These power outages range from a few hours to weeks on end. There are many options
