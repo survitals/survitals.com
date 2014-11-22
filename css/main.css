@@ -41,9 +41,9 @@
    :-ms-input-placeholder { color:#777; } /* IE 10+ */
 
   .form-search { margin:0; padding:1em 0; }
-  .site-branding h1 { margin:0; line-height:1; }
+  a.site-title { display:block; }
   @media (min-width:33em) {
-    .site-branding { float:left; }
+    .site-nav { float:left; }
     .form-search { float:right; }
   }
 
