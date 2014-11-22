@@ -10,8 +10,8 @@ use \airve\Phat;
   $hier and $list[] = \rtrim('/' . Phat::esc($hier), '/');
   $list[] = 'base-' . \basename($_SERVER['REQUEST_URI']);
   $list[] = 'view-' . Path::filename(__FILE__);
-  return ['id' => 'start', 'lang' => 'en-US', 'class' => $list, 'itemscope'];
-}) : '<html id="start" lang="en-US" itemscope>'; ?>
+  return ['id' => 'start', 'lang' => 'en-US', 'class' => $list];
+}) : '<html id="start" lang="en-US">'; ?>
 
 <meta charset=utf-8>
 <title>{{titlebar}}</title>

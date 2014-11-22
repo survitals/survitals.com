@@ -2,8 +2,8 @@
 <footer class="site-footer">
   <div class="container">
     <ul>
-      <li><a href="https://github.com/survitals/survitals.com">Github</a>
-      <li><a href="http://twitter.com/survitals">Twitter</a>
+      <li><a rel="nofollow" href="http://github.com/survitals/survitals.com">Github</a>
+      <li><a rel="me" href="http://twitter.com/survitals">Twitter</a>
     </ul>
   </div>
 </footer>

@@ -1,11 +1,11 @@
 <?php use chromosome\Loci; ?>
 
-<header class="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+<header class="site-header" role="banner">
   <div class="container">
-    <div class="site-branding" itemprop="provider publisher" itemscope itemtype="http://schema.org/Brand">
+    <div class="site-branding">
       <h1 class="site-name site-title">
-        <a itemprop="url" rel="home" href="/" accesskey="1">
-          <span itemprop="name"><?php echo Loci::option('site:name'); ?></span>
+        <a rel="home" href="/" accesskey="1">
+          <span><?php echo Loci::option('site:name'); ?></span>
         </a>
       </h1>
     </div>
