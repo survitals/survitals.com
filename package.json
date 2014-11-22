@@ -1,5 +1,6 @@
 {
     "name": "survitals.com",
+    "private": true,
     "description": "website about survival, safety, and preparedness",
     "version": "0.0.1",
     "homepage": "https://github.com/survitals/survitals.com",
