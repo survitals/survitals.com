@@ -16,6 +16,7 @@ Loci::option('uri:repo') and Loci::on('normalize', function() {
 class_exists('Parsedown') or require_once(Path::root('_package/parsedown/Parsedown.php'));
 class_exists('Parsedown') and Loci::on('normalize', function() {
   $ctx = Loci::context();
+  if ($ctx->data('item.html') && !$ctx->data('item.md')) return;
   $md = $ctx->data('item.md') ?: '';
   # Strip HTML comments before parsing - stackoverflow.com/a/3235781/770127
   $md and $md = preg_replace('/<!--(.*)-->/Uis', '', trim($md));
