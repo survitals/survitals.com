@@ -1,7 +1,7 @@
 
 <footer class="site-footer">
   <div class="container">
-    <b>&copy; <a rel="home" href="/">survitals</a></b>
+    <a rel="home" href="/"><img width="240" height="240" src="http://media.survitals.com/logo/survitals_80b.png" alt="survitals"></a>
   </div>
 </footer>
 
